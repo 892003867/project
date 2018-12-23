@@ -1,0 +1,26 @@
+@media (max-width: 1280px) {
+    /*index*/
+    .culture .item:nth-child(1) .item-case .article p {
+        font-size: 1.5rem;
+        color: #333;
+        line-height: 3rem;
+    }
+
+
+}
+
+@media (min-width: 930px) and (max-width: 1280px) {
+    /*index*/
+    .culture .item:nth-child(1) .item-case .article p {
+        font-size: 1.5rem;
+        color: #333;
+        line-height: 3rem;
+    }
+
+
+}
+
+@media (max-width: 930px) {
+
+
+}

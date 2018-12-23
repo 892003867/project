@@ -1,0 +1,56 @@
+
+
+/*布局*/
+#header {
+  width: 100%;
+  color:  red;
+  background: #f5f5f5;
+  font-size: 14px;
+}
+
+#header .case {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#header .case .logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header img {
+  width: 100%;
+}
+
+#header .case .tar {
+  width: 70%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#header .tar div {
+  height:  100px;
+  line-height:  100px;
+}
+#header .tar div a{
+  font-size: 1.7rem;
+}
+#header .tar div.actived {
+  position: relative;
+}
+
+#header .tar div.actived:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: #a80017;
+  top: 0;
+  left: 0;
+}

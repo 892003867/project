@@ -1,0 +1,160 @@
+
+#footer {
+    width: 100%;
+    overflow: hidden;
+    background: #a80017;
+}
+
+#footer .links {
+    max-width: 1280px;
+    background: #a80017;
+    max-height: 350px;
+    margin: 0 auto;
+}
+
+#footer .footBar {
+    width: 100%;
+    height: 50px;
+    background: #333333;
+    line-height: 50px;
+    color: #aaaaaa;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.links-case {
+    height: 100%;
+    min-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.links-bg {
+    width: 40%;
+    min-width: 400px;
+    height: 350px;
+    position: relative;
+    display: flex;
+}
+
+.links-bg > img {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.links-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.links-logo-case {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links-logo-case img {
+    width: 380px;
+    height: 104px;
+}
+
+.links-logo-site {
+    margin-top: 20px;
+}
+
+.links-logo-site p {
+    color: #fff;
+    width: 100%;
+    font-size: 1.4rem;
+    position: relative;
+    padding: 2% 0;
+    /* font-weight: bold; */
+    margin: 0 auto;
+}
+
+.links-logo-site p:after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 50%;
+    left: -20px;
+    background-image: url("http://localhost:63342/artall/images/puiblic/coor.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 14px;
+    height: 18px;
+    transform: translate(0, -50%);
+}
+
+.links-logo-site p:nth-child(1) {
+    /*margin-top: 20px;*/
+}
+
+.links-logo-site p:nth-child(2):after {
+    background-image: url("../../images/puiblic/tell.png");
+    width: 14px;
+    height: 16px;
+}
+
+.links-logo-site p:nth-child(3):after {
+    background-image: url("../../images/puiblic/message.png");
+    width: 14px;
+    height: 11px;
+}
+
+.links-btn {
+    flex: 2;
+    height: 100%;
+    padding-left: 1%;
+}
+
+.links-btn-head ul, .links-bth-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.links-btn-head ul li a, .links-bth-list a {
+    color: #fff;
+    text-align: left;
+}
+
+.links-btn-head ul li, .links-bth-list ul {
+    width: 25%;
+}
+
+.links-btn-head li a, .links-bth-list li a {
+    display: block;
+    text-indent: 23%;
+}
+
+.links-btn-head {
+    border-bottom: 1px solid #c6001b;
+    height: 50px;
+    line-height: 60px;
+}
+
+.links-btn-head a {
+    font-size: 1.5rem;
+}
+
+.links-bth-list li {
+    line-height: 3rem;
+}
+
+.links-bth-list li a {
+    font-size: 1.3rem;
+}
+.links-bth-list li:nth-child(1){
+    margin-top: 20px;
+}

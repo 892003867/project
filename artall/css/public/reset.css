@@ -1,0 +1,85 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0
+}
+
+body, html {
+    font-size: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #fff;
+    -webkit-text-size-adjust: 100%
+}
+
+a {
+    color: #172c45;
+    text-decoration: none
+}
+
+a:hover {
+    color: #666;
+    text-decoration: underline
+}
+
+em {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+p {
+    word-wrap: break-word
+}
+
+#body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.clear:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+html, #main {
+    min-width: 940px;
+}
+
+#main {
+    min-width: 940px;
+    overflow: hidden;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.textclip {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -moz-box;
+    -moz-line-clamp: 4;
+    -moz-box-orient: vertical;
+}
